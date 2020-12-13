@@ -31,7 +31,7 @@ function NewPost(){
     let title = document.getElementById("title").value;
     let description = document.getElementById("description").value;
 
-    let post = {title: title, description: description};
+    let post = {title, description};
 
     const options = {
         method: "POST",

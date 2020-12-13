@@ -2,6 +2,9 @@ module.exports = {
 
     posts: [
         {
+            id: "ds232",
+            title: "dbhsaudaç",
+            description: "hndsfdsnf"
         },
     ],
 
@@ -10,7 +13,8 @@ module.exports = {
     },
 
     NewPost(title, description){
-        this.posts.push({id: GenerateRandomId(), title, description});
+        console.log(title, description);
+        this.posts.push({ id: GenerateRandomId(), title, description });
     }
 }
 

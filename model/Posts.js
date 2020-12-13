@@ -1,12 +1,15 @@
 module.exports = {
 
     posts: [
-        
+        {
+        },
     ],
+
     getAll(){
-        return this.posts
+        return this.posts;
     },
-    newPost(title, description){
+
+    NewPost(title, description){
         this.posts.push({id: GenerateRandomId(), title, description});
     }
 }

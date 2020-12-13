@@ -14,7 +14,7 @@ app.post('/new', (req, res) => {
     let title = req.body.title;
     let description = req.body.description;
 
-    Posts.newPost( title, description);
+    Posts.newPost(title, description);
     res.send('Post Adicionado com Sucesso');
 });
 
